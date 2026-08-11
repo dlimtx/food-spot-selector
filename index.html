@@ -23,11 +23,17 @@
   <body>
     <div class="atmosphere" aria-hidden="true"></div>
 
-    <section class="gate" id="gate" aria-label="Password required">
-      <p class="brand__mark">Eat Where</p>
-      <h1 class="gate__headline">Enter the password</h1>
-      <p class="gate__sub">Shared access for people you’ve given the code to.</p>
-      <form class="gate__form" id="gateForm">
+    <main class="app" id="app">
+      <header class="brand">
+        <p class="brand__mark">Eat Where</p>
+        <h1 class="brand__headline">Hungry? Let’s settle it.</h1>
+        <p class="brand__sub">
+          Pick a day, time, area, and cuisine — we’ll pull one spot from your
+          list.
+        </p>
+      </header>
+
+      <form class="gate-form" id="gateForm" aria-label="Password required">
         <div class="field">
           <label for="password">Password</label>
           <input
@@ -38,22 +44,11 @@
             required
           />
         </div>
-        <p class="gate__error" id="gateError" hidden>Wrong password. Try again.</p>
+        <p class="gate-error" id="gateError" hidden>Wrong password. Try again.</p>
         <button type="submit" class="cta">Unlock</button>
       </form>
-    </section>
 
-    <main class="app" id="app" hidden>
-      <header class="brand">
-        <p class="brand__mark">Eat Where</p>
-        <h1 class="brand__headline">Hungry? Let’s settle it.</h1>
-        <p class="brand__sub">
-          Pick a day, time, area, and cuisine — we’ll pull one spot from your
-          list.
-        </p>
-      </header>
-
-      <section class="picker" aria-label="Food spot filters">
+      <section class="picker" id="picker" aria-label="Food spot filters" hidden>
         <div class="field">
           <label for="day">Day</label>
           <select id="day" name="day"></select>

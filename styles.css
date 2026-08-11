@@ -56,7 +56,6 @@ body {
   }
 }
 
-.gate,
 .app {
   width: min(100% - 2rem, 28rem);
   margin: 0 auto;
@@ -66,35 +65,13 @@ body {
   gap: 1.75rem;
 }
 
-.gate {
-  padding-top: max(2.5rem, env(safe-area-inset-top));
-  animation: rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-.gate__headline {
-  margin: 0;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(1.35rem, 5.2vw, 1.7rem);
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-  color: var(--navy-mid);
-}
-
-.gate__sub {
-  margin: -0.85rem 0 0;
-  max-width: 30ch;
-  font-size: 1rem;
-  line-height: 1.45;
-  color: var(--muted);
-}
-
-.gate__form {
+.gate-form {
   display: grid;
   gap: 0.9rem;
+  animation: rise 800ms cubic-bezier(0.22, 1, 0.36, 1) 120ms both;
 }
 
-.gate__error {
+.gate-error {
   margin: 0;
   font-size: 0.92rem;
   font-weight: 600;
@@ -348,15 +325,13 @@ body {
 }
 
 @media (min-width: 720px) {
-  .gate,
   .app {
     width: min(100% - 3rem, 34rem);
     padding-top: 2.5rem;
     gap: 2rem;
   }
 
-  .brand__sub,
-  .gate__sub {
+  .brand__sub {
     max-width: 36ch;
   }
 }

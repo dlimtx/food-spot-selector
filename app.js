@@ -14,11 +14,10 @@ const PASSWORD_HASH =
   "615fb40b1393a20b5ca90457e8e36dbbaaf1068de221e5e2e38fdaefcffee26d";
 const AUTH_KEY = "eat-where-unlocked";
 
-const gateEl = document.getElementById("gate");
-const appEl = document.getElementById("app");
 const gateForm = document.getElementById("gateForm");
 const passwordInput = document.getElementById("password");
 const gateError = document.getElementById("gateError");
+const pickerEl = document.getElementById("picker");
 
 const daySelect = document.getElementById("day");
 const timeSelect = document.getElementById("time");
@@ -188,8 +187,8 @@ async function hashPassword(value) {
 
 function unlockApp() {
   sessionStorage.setItem(AUTH_KEY, "1");
-  gateEl.hidden = true;
-  appEl.hidden = false;
+  gateForm.hidden = true;
+  pickerEl.hidden = false;
 }
 
 function isUnlocked() {
