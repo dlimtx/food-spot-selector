@@ -2,6 +2,8 @@
 
 Mobile-friendly food spot suggester powered by your `food_spots.xlsx` list.
 
+**Live app:** [https://dlimtx.github.io/food-spot-selector/](https://dlimtx.github.io/food-spot-selector/)
+
 Pick a **day**, **time**, **location**, and **cuisine**, then get one matching suggestion based on opening hours and closing days.
 
 ## Run on your computer
