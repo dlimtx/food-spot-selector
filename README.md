@@ -2,7 +2,8 @@
 
 Mobile-friendly food spot suggester powered by your `food_spots.xlsx` list.
 
-**Live app:** [https://dlimtx.github.io/food-spot-selector/](https://dlimtx.github.io/food-spot-selector/)
+**Live app:** [https://dlimtx.github.io/food-spot-selector/](https://dlimtx.github.io/food-spot-selector/)  
+Password: `EatWhere!` (simple client-side gate — fine for casual sharing, not real security)
 
 Pick a **day**, **time**, **location**, and **cuisine**, then get one matching suggestion based on opening hours and closing days.
 

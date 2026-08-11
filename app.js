@@ -9,6 +9,17 @@ const DAY_NAMES = [
   "Saturday",
 ];
 
+// SHA-256 of the shared password. Change password by updating this hash.
+const PASSWORD_HASH =
+  "4b754882589e5a601c3a90d8655ea51cd85ad71bd72de03131c845dfb3406735";
+const AUTH_KEY = "eat-where-unlocked";
+
+const gateEl = document.getElementById("gate");
+const appEl = document.getElementById("app");
+const gateForm = document.getElementById("gateForm");
+const passwordInput = document.getElementById("password");
+const gateError = document.getElementById("gateError");
+
 const daySelect = document.getElementById("day");
 const timeSelect = document.getElementById("time");
 const locationSelect = document.getElementById("location");
@@ -167,7 +178,25 @@ function suggest() {
   showResult(pick);
 }
 
-async function init() {
+async function hashPassword(value) {
+  const data = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(digest)]
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function unlockApp() {
+  sessionStorage.setItem(AUTH_KEY, "1");
+  gateEl.hidden = true;
+  appEl.hidden = false;
+}
+
+function isUnlocked() {
+  return sessionStorage.getItem(AUTH_KEY) === "1";
+}
+
+async function startApp() {
   const response = await fetch("./data/food_spots.json");
   if (!response.ok) {
     throw new Error("Could not load food spots data.");
@@ -180,7 +209,33 @@ async function init() {
   againBtn.addEventListener("click", suggest);
 }
 
+async function init() {
+  gateForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    gateError.hidden = true;
+
+    const hash = await hashPassword(passwordInput.value);
+    if (hash !== PASSWORD_HASH) {
+      gateError.hidden = false;
+      passwordInput.select();
+      return;
+    }
+
+    unlockApp();
+    await startApp();
+  });
+
+  if (isUnlocked()) {
+    unlockApp();
+    await startApp();
+    return;
+  }
+
+  passwordInput.focus();
+}
+
 init().catch((error) => {
+  unlockApp();
   dayNote.hidden = false;
   dayNote.textContent = error.message;
   console.error(error);

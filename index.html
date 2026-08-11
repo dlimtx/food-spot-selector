@@ -23,7 +23,27 @@
   <body>
     <div class="atmosphere" aria-hidden="true"></div>
 
-    <main class="app">
+    <section class="gate" id="gate" aria-label="Password required">
+      <p class="brand__mark">Eat Where</p>
+      <h1 class="gate__headline">Enter the password</h1>
+      <p class="gate__sub">Shared access for people you’ve given the code to.</p>
+      <form class="gate__form" id="gateForm">
+        <div class="field">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required
+          />
+        </div>
+        <p class="gate__error" id="gateError" hidden>Wrong password. Try again.</p>
+        <button type="submit" class="cta">Unlock</button>
+      </form>
+    </section>
+
+    <main class="app" id="app" hidden>
       <header class="brand">
         <p class="brand__mark">Eat Where</p>
         <h1 class="brand__headline">Hungry? Let’s settle it.</h1>
