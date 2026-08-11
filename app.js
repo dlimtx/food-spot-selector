@@ -11,7 +11,7 @@ const DAY_NAMES = [
 
 // SHA-256 of the shared password. Change password by updating this hash.
 const PASSWORD_HASH =
-  "4b754882589e5a601c3a90d8655ea51cd85ad71bd72de03131c845dfb3406735";
+  "615fb40b1393a20b5ca90457e8e36dbbaaf1068de221e5e2e38fdaefcffee26d";
 const AUTH_KEY = "eat-where-unlocked";
 
 const gateEl = document.getElementById("gate");
