@@ -1,0 +1,277 @@
+[
+  {
+    "place": "Hock Lai Seng Bak Chor Mee",
+    "cuisine": "Local",
+    "open": 7,
+    "close": 15,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Uncle Ke Kou Mian",
+    "cuisine": "Local",
+    "open": 4,
+    "close": 14,
+    "closingDays": [
+      "Thu"
+    ],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Chin Chin Eating House",
+    "cuisine": "Local",
+    "open": 11,
+    "close": 20,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tan Ter Seng Herbal Soup",
+    "cuisine": "Local",
+    "open": 11,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "QIJI Traditional Fishmaw Soup & Minced Pork Noodles",
+    "cuisine": "Local",
+    "open": 10,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Gan Lao Zai Chilli Crab Noodle",
+    "cuisine": "Local",
+    "open": 10,
+    "close": 14,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Lai Cai Ke Kou Mian Clarke Quay",
+    "cuisine": "Local",
+    "open": 10,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "ENEN Ke Kou Main Orchard Towers",
+    "cuisine": "Local",
+    "open": 0,
+    "close": 24,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ming Fa Fishball Noodles",
+    "cuisine": "Local",
+    "open": 0,
+    "close": 24,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Cloudfields",
+    "cuisine": "Western",
+    "open": 10,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Smolder Seafood Grill & Bar",
+    "cuisine": "Western",
+    "open": 18,
+    "close": 23,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Shun Heng BBQ",
+    "cuisine": "Local",
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Shinya Izakaya",
+    "cuisine": "Japanese",
+    "open": 12,
+    "close": 3,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tsukiji Sushi Ten",
+    "cuisine": "Japanese",
+    "open": 12,
+    "close": 3,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Shako Bar",
+    "cuisine": "Japanese",
+    "open": 17,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Bae Sik Dang BBQ",
+    "cuisine": "Korean",
+    "open": 17,
+    "close": 5,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Warm Up Cafe",
+    "cuisine": "Thai",
+    "open": 11,
+    "close": 3,
+    "closingDays": [],
+    "locations": [
+      "West",
+      "Central"
+    ]
+  },
+  {
+    "place": "Feng Sheng Chicken Rice",
+    "cuisine": "Local",
+    "open": 0,
+    "close": 24,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "89.7 Supper Club",
+    "cuisine": "Local",
+    "open": 0,
+    "close": 24,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Don Dae Bak BBQ",
+    "cuisine": "Korean",
+    "open": 12,
+    "close": 5,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "La Bu La",
+    "cuisine": "China",
+    "open": 11,
+    "close": 4,
+    "closingDays": [],
+    "locations": [
+      "North",
+      "West"
+    ]
+  },
+  {
+    "place": "Nana Thai Food",
+    "cuisine": "Thai",
+    "open": 12,
+    "close": 4,
+    "closingDays": [],
+    "locations": [
+      "West",
+      "Central"
+    ]
+  },
+  {
+    "place": "Siam Square Mookata",
+    "cuisine": "Thai",
+    "open": 12,
+    "close": 6,
+    "closingDays": [],
+    "locations": [
+      "North"
+    ]
+  },
+  {
+    "place": "Public Izakaya",
+    "cuisine": "Japanese",
+    "open": 12,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Sabar Menanti",
+    "cuisine": "Halal",
+    "open": 7,
+    "close": 17,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Sederhana",
+    "cuisine": "Halal",
+    "open": 8,
+    "close": 17,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  }
+]

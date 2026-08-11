@@ -1,0 +1,11 @@
+{
+  "name": "food-spot-selector",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Suggest a food spot by time, location, and cuisine",
+  "scripts": {
+    "convert": "python scripts/convert_excel.py",
+    "start": "python -m http.server 4173",
+    "dev": "python -m http.server 4173"
+  }
+}
