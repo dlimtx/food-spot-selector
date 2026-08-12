@@ -14,7 +14,10 @@ OUT = ROOT / "data" / "food_spots.json"
 
 
 def split_csv(value: object) -> list[str]:
-    return [part.strip() for part in str(value).split(",") if part.strip()]
+    text = str(value).strip()
+    if not text or text.upper() == "NIL":
+        return []
+    return [part.strip() for part in text.split(",") if part.strip()]
 
 
 def parse_closing_days(value: object) -> list[str]:

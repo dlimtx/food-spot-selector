@@ -173,9 +173,7 @@
   {
     "place": "Shinya Izakaya",
     "cuisine": "Japanese",
-    "dishes": [
-      "Japanese"
-    ],
+    "dishes": [],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -186,9 +184,7 @@
   {
     "place": "Tsukiji Sushi Ten",
     "cuisine": "Japanese",
-    "dishes": [
-      "Japanese"
-    ],
+    "dishes": [],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -199,9 +195,7 @@
   {
     "place": "Shako Bar",
     "cuisine": "Japanese",
-    "dishes": [
-      "Japanese"
-    ],
+    "dishes": [],
     "open": 17,
     "close": 0,
     "closingDays": [],
@@ -225,9 +219,7 @@
   {
     "place": "Warm Up Cafe",
     "cuisine": "Thai",
-    "dishes": [
-      "Thai"
-    ],
+    "dishes": [],
     "open": 11,
     "close": 3,
     "closingDays": [],
@@ -252,9 +244,7 @@
   {
     "place": "89.7 Supper Club",
     "cuisine": "Local",
-    "dishes": [
-      "Local"
-    ],
+    "dishes": [],
     "open": 0,
     "close": 24,
     "closingDays": [],
@@ -279,7 +269,7 @@
     "place": "La Bu La",
     "cuisine": "China",
     "dishes": [
-      "China"
+      "Mala"
     ],
     "open": 11,
     "close": 4,
@@ -292,9 +282,7 @@
   {
     "place": "Nana Thai Food",
     "cuisine": "Thai",
-    "dishes": [
-      "Thai"
-    ],
+    "dishes": [],
     "open": 12,
     "close": 4,
     "closingDays": [],
@@ -319,9 +307,7 @@
   {
     "place": "Public Izakaya",
     "cuisine": "Japanese",
-    "dishes": [
-      "Japanese"
-    ],
+    "dishes": [],
     "open": 12,
     "close": 0,
     "closingDays": [],
@@ -390,9 +376,7 @@
   {
     "place": "Milli - Sky Dining, Bar and Lounge",
     "cuisine": "Elevated Local",
-    "dishes": [
-      "Elevated Local"
-    ],
+    "dishes": [],
     "open": 11,
     "close": 3,
     "closingDays": [],
@@ -430,7 +414,6 @@
     "place": "BKK Bistro Bar Boat Noodles",
     "cuisine": "Thai",
     "dishes": [
-      "Thai",
       "Noodles"
     ],
     "open": 12,

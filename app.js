@@ -161,7 +161,8 @@ function showResult(spot) {
 
   resultPlace.textContent = spot.place;
   resultCuisine.textContent = spot.cuisine;
-  resultDish.textContent = spot.dishes.join(", ");
+  resultDish.textContent =
+    spot.dishes.length > 0 ? spot.dishes.join(", ") : "None listed";
   resultLocation.textContent = spot.locations.join(", ");
   resultHours.textContent = formatHours(spot);
   resultClosed.textContent =
