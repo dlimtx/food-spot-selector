@@ -32,7 +32,6 @@ const dayNote = document.getElementById("dayNote");
 
 const resultPlace = document.getElementById("resultPlace");
 const resultCuisine = document.getElementById("resultCuisine");
-const resultDish = document.getElementById("resultDish");
 const resultLocation = document.getElementById("resultLocation");
 const resultHours = document.getElementById("resultHours");
 const resultClosed = document.getElementById("resultClosed");
@@ -161,8 +160,6 @@ function showResult(spot) {
 
   resultPlace.textContent = spot.place;
   resultCuisine.textContent = spot.cuisine;
-  resultDish.textContent =
-    spot.dishes.length > 0 ? spot.dishes.join(", ") : "None listed";
   resultLocation.textContent = spot.locations.join(", ");
   resultHours.textContent = formatHours(spot);
   resultClosed.textContent =
