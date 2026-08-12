@@ -13,7 +13,7 @@ SOURCE = ROOT / "food_spots.xlsx"
 OUT = ROOT / "data" / "food_spots.json"
 
 
-def split_locations(value: object) -> list[str]:
+def split_csv(value: object) -> list[str]:
     return [part.strip() for part in str(value).split(",") if part.strip()]
 
 
@@ -32,10 +32,11 @@ def main() -> None:
             {
                 "place": str(row["Place"]).strip(),
                 "cuisine": str(row["Cuisine"]).strip(),
+                "dishes": split_csv(row["Dish"]),
                 "open": int(row["Opening hours"]),
                 "close": int(row["Closing hours"]),
                 "closingDays": parse_closing_days(row["Closing days"]),
-                "locations": split_locations(row["Location"]),
+                "locations": split_csv(row["Location"]),
             }
         )
 

@@ -5,7 +5,7 @@ Mobile-friendly food spot suggester powered by your `food_spots.xlsx` list.
 **Live app:** [https://dlimtx.github.io/food-spot-selector/](https://dlimtx.github.io/food-spot-selector/)  
 Password: `growling` (simple client-side gate — fine for casual sharing, not real security)
 
-Pick a **day**, **time**, **location**, and **cuisine**, then get one matching suggestion based on opening hours and closing days.
+Pick a **day**, **time**, **location**, **cuisine**, and **dish**, then get one matching suggestion based on opening hours and closing days.
 
 ## Run on your computer
 
@@ -45,3 +45,4 @@ Deploy this folder (static files) to [Netlify](https://www.netlify.com/), [Verce
 - **Time:** only spots open at the selected hour (including overnight hours like 5pm–3am)
 - **Location:** matches spots listed for that area (`West, Central` counts for either)
 - **Cuisine:** exact cuisine match, or `Any cuisine`
+- **Dish:** matches spots tagged with that dish (`BCM, Noodles` counts for either), or `Any dish`

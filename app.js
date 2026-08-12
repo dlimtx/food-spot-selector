@@ -23,6 +23,7 @@ const daySelect = document.getElementById("day");
 const timeSelect = document.getElementById("time");
 const locationSelect = document.getElementById("location");
 const cuisineSelect = document.getElementById("cuisine");
+const dishSelect = document.getElementById("dish");
 const suggestBtn = document.getElementById("suggestBtn");
 const againBtn = document.getElementById("againBtn");
 const resultEl = document.getElementById("result");
@@ -31,11 +32,12 @@ const dayNote = document.getElementById("dayNote");
 
 const resultPlace = document.getElementById("resultPlace");
 const resultCuisine = document.getElementById("resultCuisine");
+const resultDish = document.getElementById("resultDish");
 const resultLocation = document.getElementById("resultLocation");
 const resultHours = document.getElementById("resultHours");
 const resultClosed = document.getElementById("resultClosed");
 
-/** @type {Array<{place:string,cuisine:string,open:number,close:number,closingDays:string[],locations:string[]}>} */
+/** @type {Array<{place:string,cuisine:string,dishes:string[],open:number,close:number,closingDays:string[],locations:string[]}>} */
 let spots = [];
 /** @type {string|null} */
 let lastSuggestion = null;
@@ -68,11 +70,12 @@ function isOpenAt(spot, hour) {
   return hour >= open && hour < close;
 }
 
-function matchesFilters(spot, hour, location, cuisine, dayCode) {
+function matchesFilters(spot, hour, location, cuisine, dish, dayCode) {
   if (spot.closingDays.includes(dayCode)) return false;
   if (!isOpenAt(spot, hour)) return false;
   if (location !== "Any" && !spot.locations.includes(location)) return false;
   if (cuisine !== "Any" && spot.cuisine !== cuisine) return false;
+  if (dish !== "Any" && !spot.dishes.includes(dish)) return false;
   return true;
 }
 
@@ -116,10 +119,18 @@ function populateControls(data) {
       .map((cuisine) => ({ value: cuisine, label: cuisine })),
   ];
 
+  const dishes = [
+    { value: "Any", label: "Any dish" },
+    ...[...new Set(data.flatMap((s) => s.dishes))]
+      .sort((a, b) => a.localeCompare(b))
+      .map((dish) => ({ value: dish, label: dish })),
+  ];
+
   fillSelect(daySelect, days, dayCode);
   fillSelect(timeSelect, hours, String(currentHour));
   fillSelect(locationSelect, locations, "Any");
   fillSelect(cuisineSelect, cuisines, "Any");
+  fillSelect(dishSelect, dishes, "Any");
 }
 
 function pickSuggestion(candidates) {
@@ -150,6 +161,7 @@ function showResult(spot) {
 
   resultPlace.textContent = spot.place;
   resultCuisine.textContent = spot.cuisine;
+  resultDish.textContent = spot.dishes.join(", ");
   resultLocation.textContent = spot.locations.join(", ");
   resultHours.textContent = formatHours(spot);
   resultClosed.textContent =
@@ -162,10 +174,11 @@ function suggest() {
   const hour = Number(timeSelect.value);
   const location = locationSelect.value;
   const cuisine = cuisineSelect.value;
+  const dish = dishSelect.value;
   const dayCode = daySelect.value;
 
   const matches = spots.filter((spot) =>
-    matchesFilters(spot, hour, location, cuisine, dayCode)
+    matchesFilters(spot, hour, location, cuisine, dish, dayCode)
   );
   const pick = pickSuggestion(matches);
 

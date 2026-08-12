@@ -2,6 +2,10 @@
   {
     "place": "Hock Lai Seng Bak Chor Mee",
     "cuisine": "Local",
+    "dishes": [
+      "BCM",
+      "Noodles"
+    ],
     "open": 7,
     "close": 15,
     "closingDays": [
@@ -14,6 +18,10 @@
   {
     "place": "Uncle Ke Kou Mian",
     "cuisine": "Local",
+    "dishes": [
+      "KKM",
+      "Noodles"
+    ],
     "open": 4,
     "close": 14,
     "closingDays": [
@@ -26,6 +34,9 @@
   {
     "place": "Chin Chin Eating House",
     "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
     "open": 11,
     "close": 20,
     "closingDays": [
@@ -38,6 +49,9 @@
   {
     "place": "Tan Ter Seng Herbal Soup",
     "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
     "open": 11,
     "close": 20,
     "closingDays": [],
@@ -48,6 +62,10 @@
   {
     "place": "QIJI Traditional Fishmaw Soup & Minced Pork Noodles",
     "cuisine": "Local",
+    "dishes": [
+      "BCM",
+      "Noodles"
+    ],
     "open": 10,
     "close": 21,
     "closingDays": [],
@@ -58,6 +76,9 @@
   {
     "place": "Gan Lao Zai Chilli Crab Noodle",
     "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
     "open": 10,
     "close": 14,
     "closingDays": [
@@ -70,6 +91,10 @@
   {
     "place": "Lai Cai Ke Kou Mian Clarke Quay",
     "cuisine": "Local",
+    "dishes": [
+      "KKM",
+      "Noodles"
+    ],
     "open": 10,
     "close": 21,
     "closingDays": [],
@@ -80,6 +105,10 @@
   {
     "place": "ENEN Ke Kou Main Orchard Towers",
     "cuisine": "Local",
+    "dishes": [
+      "KKM",
+      "Noodles"
+    ],
     "open": 0,
     "close": 24,
     "closingDays": [],
@@ -90,6 +119,9 @@
   {
     "place": "Ming Fa Fishball Noodles",
     "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
     "open": 0,
     "close": 24,
     "closingDays": [],
@@ -100,6 +132,9 @@
   {
     "place": "Cloudfields",
     "cuisine": "Western",
+    "dishes": [
+      "Cafe"
+    ],
     "open": 10,
     "close": 22,
     "closingDays": [],
@@ -110,6 +145,9 @@
   {
     "place": "Smolder Seafood Grill & Bar",
     "cuisine": "Western",
+    "dishes": [
+      "Seafood"
+    ],
     "open": 18,
     "close": 23,
     "closingDays": [
@@ -122,6 +160,9 @@
   {
     "place": "Shun Heng BBQ",
     "cuisine": "Local",
+    "dishes": [
+      "Stingray"
+    ],
     "open": 12,
     "close": 22,
     "closingDays": [],
@@ -132,6 +173,9 @@
   {
     "place": "Shinya Izakaya",
     "cuisine": "Japanese",
+    "dishes": [
+      "Japanese"
+    ],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -142,6 +186,9 @@
   {
     "place": "Tsukiji Sushi Ten",
     "cuisine": "Japanese",
+    "dishes": [
+      "Japanese"
+    ],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -152,6 +199,9 @@
   {
     "place": "Shako Bar",
     "cuisine": "Japanese",
+    "dishes": [
+      "Japanese"
+    ],
     "open": 17,
     "close": 0,
     "closingDays": [],
@@ -162,6 +212,9 @@
   {
     "place": "Bae Sik Dang BBQ",
     "cuisine": "Korean",
+    "dishes": [
+      "KBBQ"
+    ],
     "open": 17,
     "close": 5,
     "closingDays": [],
@@ -172,6 +225,9 @@
   {
     "place": "Warm Up Cafe",
     "cuisine": "Thai",
+    "dishes": [
+      "Thai"
+    ],
     "open": 11,
     "close": 3,
     "closingDays": [],
@@ -183,6 +239,9 @@
   {
     "place": "Feng Sheng Chicken Rice",
     "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
     "open": 0,
     "close": 24,
     "closingDays": [],
@@ -193,6 +252,9 @@
   {
     "place": "89.7 Supper Club",
     "cuisine": "Local",
+    "dishes": [
+      "Local"
+    ],
     "open": 0,
     "close": 24,
     "closingDays": [],
@@ -203,6 +265,9 @@
   {
     "place": "Don Dae Bak BBQ",
     "cuisine": "Korean",
+    "dishes": [
+      "KBBQ"
+    ],
     "open": 12,
     "close": 5,
     "closingDays": [],
@@ -213,6 +278,9 @@
   {
     "place": "La Bu La",
     "cuisine": "China",
+    "dishes": [
+      "China"
+    ],
     "open": 11,
     "close": 4,
     "closingDays": [],
@@ -224,6 +292,9 @@
   {
     "place": "Nana Thai Food",
     "cuisine": "Thai",
+    "dishes": [
+      "Thai"
+    ],
     "open": 12,
     "close": 4,
     "closingDays": [],
@@ -235,6 +306,9 @@
   {
     "place": "Siam Square Mookata",
     "cuisine": "Thai",
+    "dishes": [
+      "Mookata"
+    ],
     "open": 12,
     "close": 6,
     "closingDays": [],
@@ -245,6 +319,9 @@
   {
     "place": "Public Izakaya",
     "cuisine": "Japanese",
+    "dishes": [
+      "Japanese"
+    ],
     "open": 12,
     "close": 0,
     "closingDays": [],
@@ -255,6 +332,9 @@
   {
     "place": "Sabar Menanti",
     "cuisine": "Halal",
+    "dishes": [
+      "Nasi Padang"
+    ],
     "open": 7,
     "close": 17,
     "closingDays": [
@@ -267,8 +347,107 @@
   {
     "place": "Sederhana",
     "cuisine": "Halal",
+    "dishes": [
+      "Nasi Padang"
+    ],
     "open": 8,
     "close": 17,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tom's Palette",
+    "cuisine": "Dessert",
+    "dishes": [
+      "Ice Cream"
+    ],
+    "open": 12,
+    "close": 22,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tian Tian Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 9,
+    "close": 20,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Milli - Sky Dining, Bar and Lounge",
+    "cuisine": "Elevated Local",
+    "dishes": [
+      "Elevated Local"
+    ],
+    "open": 11,
+    "close": 3,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "People's Park Hainan Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 0,
+    "close": 24,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Imperial Broth Noodles",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 9,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Northeast"
+    ]
+  },
+  {
+    "place": "BKK Bistro Bar Boat Noodles",
+    "cuisine": "Thai",
+    "dishes": [
+      "Thai",
+      "Noodles"
+    ],
+    "open": 12,
+    "close": 2,
+    "closingDays": [],
+    "locations": [
+      "North"
+    ]
+  },
+  {
+    "place": "New Ubin Seafood",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 11,
+    "close": 1,
     "closingDays": [],
     "locations": [
       "Central"
