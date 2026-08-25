@@ -634,5 +634,1245 @@
     "locations": [
       "North"
     ]
+  },
+  {
+    "place": "Boon Keng Road Fish Head Bee Hoon",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Hup Kee Fried Oyster Omelette",
+    "cuisine": "Local",
+    "dishes": [
+      "Oyster Omelette"
+    ],
+    "open": 17,
+    "close": 0,
+    "closingDays": [
+      "Sun",
+      "Mon",
+      "Tue"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Jia Xiang",
+    "cuisine": "Local",
+    "dishes": [
+      "Mee Siam"
+    ],
+    "open": 12,
+    "close": 18,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "King of Laksa",
+    "cuisine": "Local",
+    "dishes": [
+      "Laksa",
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Rajarani Thosai",
+    "cuisine": "Indian",
+    "dishes": [
+      "Thosai"
+    ],
+    "open": 7,
+    "close": 14,
+    "closingDays": [
+      "Wed"
+    ],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Seng Kee Black Chicken Herbal Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 12,
+    "close": 23,
+    "closingDays": [
+      "Wed"
+    ],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Tian Nan Xing Minced Pork Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "BCM",
+      "Noodles"
+    ],
+    "open": 17,
+    "close": 0,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Xiangyee",
+    "cuisine": "China",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Xiu Ji Ikan Bilis Yong Tau Fu",
+    "cuisine": "Local",
+    "dishes": [
+      "Yong Tau Fu"
+    ],
+    "open": 5,
+    "close": 14,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Yi Pin Wei Braised Duck Kway Chap",
+    "cuisine": "Local",
+    "dishes": [
+      "Kway Chap"
+    ],
+    "open": 6,
+    "close": 15,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "A Noodle Story",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 20,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Adam Road Noo Cheng Big Prawn Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Alliance Seafood",
+    "cuisine": "Local",
+    "dishes": [
+      "Seafood"
+    ],
+    "open": 17,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Anglo Indian (Shenton Way)",
+    "cuisine": "Indian",
+    "dishes": [
+      "Curry"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ar Er Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Bahrakath Mutton Soup",
+    "cuisine": "Halal",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Beach Road Fish Head Bee Hoon",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Bismillah Biryani (Little India)",
+    "cuisine": "Halal",
+    "dishes": [
+      "Biryani"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Boon Tong Kee (Balestier Road)",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Chai Chuan Tou Yang Rou Tang",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Chef Kang's Noodle House",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Cheok Kee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Chey Sua Carrot Cake",
+    "cuisine": "Local",
+    "dishes": [
+      "Carrot Cake"
+    ],
+    "open": 6,
+    "close": 15,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Chuan Kee Boneless Braised Duck",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Cumi Bali",
+    "cuisine": "Indonesian",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Da Shi Jia Big Prawn Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Delhi Lahori",
+    "cuisine": "Indian",
+    "dishes": [
+      "Curry"
+    ],
+    "open": 10,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Dudu Cooked Food",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Fei Fei Roasted Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Fico",
+    "cuisine": "Western",
+    "dishes": [],
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Fu Ming Cooked Food",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hai Nan Xing Zhou Beef Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hai Nan Zai",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "North"
+    ]
+  },
+  {
+    "place": "Han Kee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Heng",
+    "cuisine": "Local",
+    "dishes": [
+      "Seafood"
+    ],
+    "open": 17,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Heng Heng Cooked Food",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Heng Kee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hong Heng Fried Sotong Prawn Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hong Kong Yummy Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hoo Kee Bak Chang",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 10,
+    "close": 19,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Hui Wei Chilli Ban Mian",
+    "cuisine": "Local",
+    "dishes": [
+      "Chilli Ban Mian"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Indocaf\u00e9",
+    "cuisine": "Peranakan",
+    "dishes": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "J2 Famous Crispy Curry Puff",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 10,
+    "close": 19,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Jalan Sultan Prawn Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Jason Penang Cuisine",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ji De Lai Hainanese Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "North"
+    ]
+  },
+  {
+    "place": "Ji Ji Noodle House",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Jian Bo Tiong Bahru Shui Kueh",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 6,
+    "close": 14,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Joo Siah Bak Koot Teh",
+    "cuisine": "Local",
+    "dishes": [
+      "Bak Kut Teh",
+      "Soup"
+    ],
+    "open": 10,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Jungle Thai",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kelantan Kway Chap \u00b7 Pig Organ Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Kway Chap",
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kitchenman Nasi Lemak",
+    "cuisine": "Malaysian",
+    "dishes": [
+      "Nasi Lemak"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Koh Brother Pig's Organ Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kok Sen",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kotuwa",
+    "cuisine": "Sri Lankan",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kwang Kee Teochew Fish Porridge",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kwee Heng",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Lagnaa",
+    "cuisine": "Indian",
+    "dishes": [
+      "Curry"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Lai Heng Handmade Teochew Kueh",
+    "cuisine": "Local",
+    "dishes": [],
+    "open": 6,
+    "close": 14,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Lao Fu Zi Fried Kway Teow",
+    "cuisine": "Local",
+    "dishes": [
+      "Fried Kway Teow"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Lian He Ben Ji Claypot",
+    "cuisine": "Local",
+    "dishes": [
+      "Claypot Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Lixin Teochew Fishball Noodles",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Margaret Drive Sin Kee Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "MP Thai (Vision Exchange)",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Muthu's Curry",
+    "cuisine": "Indian",
+    "dishes": [
+      "Curry"
+    ],
+    "open": 10,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Na Na Curry",
+    "cuisine": "Local",
+    "dishes": [
+      "Curry"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Nam Sing Hokkien Fried Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Hokkien Mee",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "New Lucky Claypot Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Claypot Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "No.18 Zion Road Fried Kway Teow",
+    "cuisine": "Local",
+    "dishes": [
+      "Fried Kway Teow"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Outram Park Fried Kway Teow Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Fried Kway Teow"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ru Ji Kitchen",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Selamat Datang Warong Pak Sapari",
+    "cuisine": "Halal",
+    "dishes": [
+      "Nasi Lemak"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Sik Bao Sin",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Sin Heng Claypot Bak Koot Teh",
+    "cuisine": "Local",
+    "dishes": [
+      "Bak Kut Teh",
+      "Soup"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Sin Huat Seafood Restaurant",
+    "cuisine": "Local",
+    "dishes": [
+      "Seafood"
+    ],
+    "open": 17,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Singapore Fried Hokkien Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Hokkien Mee",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Soh Kee Cooked Food",
+    "cuisine": "Local",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Song Fa Bak Kut Teh (New Bridge Road)",
+    "cuisine": "Local",
+    "dishes": [
+      "Bak Kut Teh",
+      "Soup"
+    ],
+    "open": 10,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Song Fish Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Song Kee Teochew Fish Porridge",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Spinach Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tai Seng Fish Soup",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Tai Wah Pork Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "BCM",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "The Blue Ginger",
+    "cuisine": "Peranakan",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "The Coconut Club (Beach Road)",
+    "cuisine": "Malaysian",
+    "dishes": [
+      "Nasi Lemak"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Tiong Bahru Hainanese Boneless Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "To-Ricos Kway Chap",
+    "cuisine": "Local",
+    "dishes": [
+      "Kway Chap"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "True Blue Cuisine",
+    "cuisine": "Peranakan",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Un-Yang-Kor-Dai",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Whole Earth",
+    "cuisine": "Vegetarian",
+    "dishes": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Wok Hei Hor Fun",
+    "cuisine": "Local",
+    "dishes": [
+      "Hor Fun",
+      "Noodles"
+    ],
+    "open": 17,
+    "close": 23,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Yhingthai Palace",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Yong Chun Wan Ton Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Zai Shun Curry Fish Head",
+    "cuisine": "Local",
+    "dishes": [
+      "Seafood"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Zhi Wei Xian Zion Road Big Prawn Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Zhup Zhup Noodles",
+    "cuisine": "Local",
+    "dishes": [
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
   }
 ]
