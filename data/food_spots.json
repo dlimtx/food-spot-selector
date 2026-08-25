@@ -493,5 +493,105 @@
     "locations": [
       "Central"
     ]
+  },
+  {
+    "place": "Korat Thai",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Thai Tantric",
+    "cuisine": "Thai",
+    "dishes": [],
+    "open": 12,
+    "close": 22,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Xin Juan Ji",
+    "cuisine": "Local",
+    "dishes": [
+      "Fish Soup"
+    ],
+    "open": 12,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central",
+      "North"
+    ]
+  },
+  {
+    "place": "Tora Tora",
+    "cuisine": "Japanese",
+    "dishes": [],
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Fanko House",
+    "cuisine": "Halal",
+    "dishes": [
+      "Indomie"
+    ],
+    "open": 9,
+    "close": 23,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ng Kuan Chilli Ban Mian",
+    "cuisine": "Local",
+    "dishes": [
+      "Chilli Ban Mian"
+    ],
+    "open": 10,
+    "close": 3,
+    "closingDays": [],
+    "locations": [
+      "Central",
+      "East"
+    ]
+  },
+  {
+    "place": "Super Kitchen Chlli Pan Mee",
+    "cuisine": "Local",
+    "dishes": [
+      "Chilli Ban Mian"
+    ],
+    "open": 10,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Mama Diam",
+    "cuisine": "Elevated Local",
+    "dishes": [],
+    "open": 16,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
   }
 ]
