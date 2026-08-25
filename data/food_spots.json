@@ -519,7 +519,7 @@
     ]
   },
   {
-    "place": "Xin Juan Ji",
+    "place": "Xin Yuan Ji",
     "cuisine": "Local",
     "dishes": [
       "Fish Soup"
@@ -592,6 +592,47 @@
     "closingDays": [],
     "locations": [
       "Central"
+    ]
+  },
+  {
+    "place": "Um Yong Baek Soup",
+    "cuisine": "Korean",
+    "dishes": [
+      "Pork Soup"
+    ],
+    "open": 11,
+    "close": 15,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Um Yong Baek BBQ",
+    "cuisine": "Korean",
+    "dishes": [
+      "KBBQ"
+    ],
+    "open": 18,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Unnie Korean Restaurant",
+    "cuisine": "Korean",
+    "dishes": [
+      "Army Strew"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [
+      "Mon"
+    ],
+    "locations": [
+      "North"
     ]
   }
 ]
