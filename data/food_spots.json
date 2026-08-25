@@ -249,7 +249,8 @@
     "close": 24,
     "closingDays": [],
     "locations": [
-      "Central"
+      "North",
+      "East"
     ]
   },
   {
@@ -840,9 +841,11 @@
     "dishes": [
       "Soup"
     ],
-    "open": 10,
+    "open": 14,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Sat"
+    ],
     "locations": [
       "Central"
     ]
@@ -851,10 +854,11 @@
     "place": "Bahrakath Mutton Soup",
     "cuisine": "Indian",
     "dishes": [
-      "Soup"
+      "Soup",
+      "Biryani"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 11,
+    "close": 0,
     "closingDays": [],
     "locations": [
       "Central"
@@ -866,8 +870,8 @@
     "dishes": [
       "Fish Soup"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 9,
+    "close": 14,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1022,8 +1026,8 @@
     "dishes": [
       "Roasted Meats"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 8,
+    "close": 14,
     "closingDays": [],
     "locations": [
       "West"
@@ -1046,9 +1050,11 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 10,
+    "open": 12,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1060,9 +1066,11 @@
       "Beef Noodles",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 8,
+    "close": 15,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1073,8 +1081,8 @@
     "dishes": [
       "Chicken Rice"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 8,
+    "close": 21,
     "closingDays": [],
     "locations": [
       "North"
@@ -1086,8 +1094,8 @@
     "dishes": [
       "Fish Soup"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 11,
+    "close": 15,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1099,9 +1107,12 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 9,
+    "close": 14,
+    "closingDays": [
+      "Wed",
+      "Thu"
+    ],
     "locations": [
       "West"
     ]
@@ -1114,8 +1125,10 @@
       "Noodles"
     ],
     "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "close": 15,
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1128,8 +1141,11 @@
       "Noodles"
     ],
     "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "close": 14,
+    "closingDays": [
+      "Sun",
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1140,9 +1156,12 @@
     "dishes": [
       "Soup"
     ],
-    "open": 10,
+    "open": 12,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Sat",
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1857,8 +1876,8 @@
     "dishes": [
       "Seafood"
     ],
-    "open": 11,
-    "close": 22,
+    "open": 7,
+    "close": 15,
     "closingDays": [],
     "locations": [
       "West"
