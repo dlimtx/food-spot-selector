@@ -370,7 +370,8 @@
       "Mon"
     ],
     "locations": [
-      "Central"
+      "Central",
+      "East"
     ]
   },
   {
@@ -432,6 +433,63 @@
     "open": 11,
     "close": 1,
     "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Satori Yakitori",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Yakitori"
+    ],
+    "open": 15,
+    "close": 23,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ah Boy Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [
+      "Thu"
+    ],
+    "locations": [
+      "West"
+    ]
+  },
+  {
+    "place": "Monarchs & Milkweed",
+    "cuisine": "Dessert",
+    "dishes": [
+      "Ice Cream"
+    ],
+    "open": 10,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Hi Stranger",
+    "cuisine": "Bar",
+    "dishes": [],
+    "open": 18,
+    "close": 23,
+    "closingDays": [
+      "Sun",
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
