@@ -25,22 +25,14 @@ const locationSelect = document.getElementById("location");
 const cuisineSelect = document.getElementById("cuisine");
 const dishSelect = document.getElementById("dish");
 const suggestBtn = document.getElementById("suggestBtn");
-const againBtn = document.getElementById("againBtn");
 const resultEl = document.getElementById("result");
+const resultKicker = document.getElementById("resultKicker");
+const resultList = document.getElementById("resultList");
 const emptyEl = document.getElementById("empty");
 const dayNote = document.getElementById("dayNote");
 
-const resultPlace = document.getElementById("resultPlace");
-const resultCuisine = document.getElementById("resultCuisine");
-const resultDish = document.getElementById("resultDish");
-const resultLocation = document.getElementById("resultLocation");
-const resultHours = document.getElementById("resultHours");
-const resultClosed = document.getElementById("resultClosed");
-
 /** @type {Array<{place:string,cuisine:string,dishes:string[],open:number,close:number,closingDays:string[],locations:string[]}>} */
 let spots = [];
-/** @type {string|null} */
-let lastSuggestion = null;
 
 function formatHour(hour) {
   const h = ((hour % 24) + 24) % 24;
@@ -133,42 +125,62 @@ function populateControls(data) {
   fillSelect(dishSelect, dishes, "Any");
 }
 
-function pickSuggestion(candidates) {
-  if (candidates.length === 0) return null;
-  if (candidates.length === 1) return candidates[0];
-
-  const pool =
-    lastSuggestion == null
-      ? candidates
-      : candidates.filter((spot) => spot.place !== lastSuggestion);
-
-  const choices = pool.length > 0 ? pool : candidates;
-  return choices[Math.floor(Math.random() * choices.length)];
-}
-
 function showEmpty() {
   resultEl.hidden = true;
+  resultKicker.textContent = "";
+  resultList.replaceChildren();
   emptyEl.hidden = false;
 }
 
-function showResult(spot) {
+function metaItem(label, value) {
+  const wrap = document.createElement("div");
+  const dt = document.createElement("dt");
+  dt.textContent = label;
+  const dd = document.createElement("dd");
+  dd.textContent = value;
+  wrap.append(dt, dd);
+  return wrap;
+}
+
+function renderSpotCard(spot) {
+  const item = document.createElement("li");
+  item.className = "result-card";
+
+  const place = document.createElement("h2");
+  place.className = "result-card__place";
+  place.textContent = spot.place;
+
+  const meta = document.createElement("dl");
+  meta.className = "result__meta";
+  meta.append(
+    metaItem("Cuisine", spot.cuisine),
+    metaItem(
+      "Dish",
+      spot.dishes.length > 0 ? spot.dishes.join(", ") : "None listed"
+    ),
+    metaItem("Area", spot.locations.join(", ")),
+    metaItem("Hours", formatHours(spot)),
+    metaItem(
+      "Closed",
+      spot.closingDays.length > 0 ? spot.closingDays.join(", ") : "None listed"
+    )
+  );
+
+  item.append(place, meta);
+  return item;
+}
+
+function showResults(matches) {
   emptyEl.hidden = true;
   resultEl.hidden = false;
   resultEl.classList.remove("is-refreshing");
-  // Retrigger animation on repeat suggestions
   void resultEl.offsetWidth;
   resultEl.classList.add("is-refreshing");
 
-  resultPlace.textContent = spot.place;
-  resultCuisine.textContent = spot.cuisine;
-  resultDish.textContent =
-    spot.dishes.length > 0 ? spot.dishes.join(", ") : "None listed";
-  resultLocation.textContent = spot.locations.join(", ");
-  resultHours.textContent = formatHours(spot);
-  resultClosed.textContent =
-    spot.closingDays.length > 0 ? spot.closingDays.join(", ") : "None listed";
-
-  lastSuggestion = spot.place;
+  const count = matches.length;
+  resultKicker.textContent =
+    count === 1 ? "1 matching spot" : `${count} matching spots`;
+  resultList.replaceChildren(...matches.map(renderSpotCard));
 }
 
 function suggest() {
@@ -181,14 +193,13 @@ function suggest() {
   const matches = spots.filter((spot) =>
     matchesFilters(spot, hour, location, cuisine, dish, dayCode)
   );
-  const pick = pickSuggestion(matches);
 
-  if (!pick) {
+  if (matches.length === 0) {
     showEmpty();
     return;
   }
 
-  showResult(pick);
+  showResults(matches);
 }
 
 async function hashPassword(value) {
@@ -219,7 +230,6 @@ async function startApp() {
   populateControls(spots);
 
   suggestBtn.addEventListener("click", suggest);
-  againBtn.addEventListener("click", suggest);
 }
 
 async function init() {

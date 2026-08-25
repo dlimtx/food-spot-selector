@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#f7d6e0" />
     <meta
       name="description"
-      content="Pick a food spot by day, time, location, cuisine, and dish."
+      content="Find matching food spots by day, time, location, cuisine, and dish."
     />
     <title>Eat Where</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,8 +28,8 @@
         <p class="brand__mark">Eat Where</p>
         <h1 class="brand__headline">Hungry? Let’s settle it.</h1>
         <p class="brand__sub">
-          Pick a day, time, area, cuisine, and dish — we’ll pull one spot from
-          your list.
+          Pick a day, time, area, cuisine, and dish — we’ll list every matching
+          spot.
         </p>
       </header>
 
@@ -77,44 +77,13 @@
         <p class="day-note" id="dayNote" hidden></p>
 
         <button type="button" class="cta" id="suggestBtn">
-          Suggest a spot
+          Show matching spots
         </button>
       </section>
 
-      <section
-        class="result"
-        id="result"
-        aria-live="polite"
-        aria-atomic="true"
-        hidden
-      >
-        <p class="result__kicker">Try this</p>
-        <h2 class="result__place" id="resultPlace"></h2>
-        <dl class="result__meta">
-          <div>
-            <dt>Cuisine</dt>
-            <dd id="resultCuisine"></dd>
-          </div>
-          <div>
-            <dt>Dish</dt>
-            <dd id="resultDish"></dd>
-          </div>
-          <div>
-            <dt>Area</dt>
-            <dd id="resultLocation"></dd>
-          </div>
-          <div>
-            <dt>Hours</dt>
-            <dd id="resultHours"></dd>
-          </div>
-          <div>
-            <dt>Closed</dt>
-            <dd id="resultClosed"></dd>
-          </div>
-        </dl>
-        <button type="button" class="again" id="againBtn">
-          Suggest another
-        </button>
+      <section class="results" id="result" aria-live="polite" hidden>
+        <p class="result__kicker" id="resultKicker"></p>
+        <ul class="result-list" id="resultList"></ul>
       </section>
 
       <p class="empty" id="empty" hidden>
