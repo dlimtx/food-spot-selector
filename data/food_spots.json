@@ -1923,34 +1923,6 @@
     ]
   },
   {
-    "place": "Greenview Cafe",
-    "cuisine": "Local",
-    "dishes": [
-      "Mee Hoon Kueh",
-      "Noodles"
-    ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
-    "locations": [
-      "Central"
-    ]
-  },
-  {
-    "place": "Madam Tyrant",
-    "cuisine": "Local",
-    "dishes": [
-      "Mee Hoon Kueh",
-      "Noodles"
-    ],
-    "open": 11,
-    "close": 20,
-    "closingDays": [],
-    "locations": [
-      "Central"
-    ]
-  },
-  {
     "place": "Seletar Sheng Mian & Mian Fen Guo",
     "cuisine": "Local",
     "dishes": [
@@ -1958,10 +1930,11 @@
       "Noodles"
     ],
     "open": 6,
-    "close": 15,
-    "closingDays": [],
+    "close": 14,
+    "closingDays": [
+      "Fri"
+    ],
     "locations": [
-      "Northeast",
       "Central",
       "East"
     ]
@@ -1984,25 +1957,8 @@
     ]
   },
   {
-    "place": "Ai Chi Mee Hoon Kueh",
-    "cuisine": "Local",
-    "dishes": [
-      "Mee Hoon Kueh",
-      "Noodles"
-    ],
-    "open": 7,
-    "close": 15,
-    "closingDays": [
-      "Sat",
-      "Sun"
-    ],
-    "locations": [
-      "Central"
-    ]
-  },
-  {
     "place": "Banting Traditional Cuisine",
-    "cuisine": "Malaysian",
+    "cuisine": "Local",
     "dishes": [
       "Mee Hoon Kueh",
       "Chilli Ban Mian",
@@ -2022,16 +1978,16 @@
     "cuisine": "Local",
     "dishes": [
       "Mee Hoon Kueh",
+      "Ban Mian",
       "Noodles"
     ],
     "open": 7,
     "close": 14,
     "closingDays": [
-      "Sat",
-      "Sun"
+      "Sat"
     ],
     "locations": [
-      "Central"
+      "East"
     ]
   },
   {
@@ -2039,45 +1995,16 @@
     "cuisine": "Local",
     "dishes": [
       "Mee Hoon Kueh",
+      "Ban Mian",
       "Noodles"
     ],
-    "open": 10,
-    "close": 22,
+    "open": 8,
+    "close": 23,
     "closingDays": [
-      "Fri"
+      "Sat"
     ],
     "locations": [
       "East"
-    ]
-  },
-  {
-    "place": "Penang Heng Heng Handmade Noodle",
-    "cuisine": "Local",
-    "dishes": [
-      "Mee Hoon Kueh",
-      "Noodles"
-    ],
-    "open": 10,
-    "close": 21,
-    "closingDays": [
-      "Tue"
-    ],
-    "locations": [
-      "West"
-    ]
-  },
-  {
-    "place": "Jiak Song Mee Hoon Kway",
-    "cuisine": "Local",
-    "dishes": [
-      "Mee Hoon Kueh",
-      "Noodles"
-    ],
-    "open": 10,
-    "close": 21,
-    "closingDays": [],
-    "locations": [
-      "Central"
     ]
   },
   {
@@ -2085,10 +2012,11 @@
     "cuisine": "Local",
     "dishes": [
       "Mee Hoon Kueh",
+      "Ban Mian",
       "Noodles"
     ],
     "open": 11,
-    "close": 22,
+    "close": 21,
     "closingDays": [
       "Mon"
     ],
