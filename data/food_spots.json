@@ -868,7 +868,8 @@
     "place": "Beach Road Fish Head Bee Hoon",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
     "open": 9,
     "close": 14,
@@ -909,9 +910,12 @@
     "dishes": [
       "Soup"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 11,
+    "close": 13,
+    "closingDays": [
+      "Sun",
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -923,8 +927,8 @@
       "Roasted Meats",
       "Noodles"
     ],
-    "open": 11,
-    "close": 21,
+    "open": 8,
+    "close": 16,
     "closingDays": [],
     "locations": [
       "Central"
@@ -936,9 +940,12 @@
     "dishes": [
       "Braised Duck Rice"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 12,
+    "close": 18,
+    "closingDays": [
+      "Thu",
+      "Fri"
+    ],
     "locations": [
       "Central"
     ]
@@ -949,8 +956,8 @@
     "dishes": [
       "Carrot Cake"
     ],
-    "open": 6,
-    "close": 15,
+    "open": 7,
+    "close": 13,
     "closingDays": [],
     "locations": [
       "Central"
@@ -963,7 +970,7 @@
       "Braised Duck Rice"
     ],
     "open": 10,
-    "close": 20,
+    "close": 19,
     "closingDays": [],
     "locations": [
       "Central"
@@ -973,8 +980,8 @@
     "place": "Cumi Bali",
     "cuisine": "Indonesian",
     "dishes": [],
-    "open": 11,
-    "close": 22,
+    "open": 12,
+    "close": 21,
     "closingDays": [],
     "locations": [
       "East"
@@ -987,8 +994,8 @@
       "Prawn Noodles",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 11,
+    "close": 22,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1000,8 +1007,8 @@
     "dishes": [
       "Curry"
     ],
-    "open": 10,
-    "close": 21,
+    "open": 9,
+    "close": 23,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1013,9 +1020,12 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 8,
+    "close": 19,
+    "closingDays": [
+      "Fri",
+      "Mon"
+    ],
     "locations": [
       "West"
     ]
@@ -1036,7 +1046,9 @@
   {
     "place": "Fico",
     "cuisine": "Western",
-    "dishes": [],
+    "dishes": [
+      "Italian"
+    ],
     "open": 12,
     "close": 22,
     "closingDays": [],
@@ -1053,7 +1065,8 @@
     "open": 12,
     "close": 20,
     "closingDays": [
-      "Mon"
+      "Mon",
+      "Tue"
     ],
     "locations": [
       "Central"
@@ -1092,7 +1105,8 @@
     "place": "Han Kee",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
     "open": 11,
     "close": 15,
@@ -1170,9 +1184,13 @@
     "place": "Hoo Kee Bak Chang",
     "cuisine": "Local",
     "dishes": [],
-    "open": 10,
-    "close": 19,
-    "closingDays": [],
+    "open": 11,
+    "close": 15,
+    "closingDays": [
+      "Sat",
+      "Sun",
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1184,9 +1202,11 @@
       "Chilli Ban Mian",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [
+      "Fri"
+    ],
     "locations": [
       "Central"
     ]
@@ -1195,8 +1215,8 @@
     "place": "Indocaf\u00e9",
     "cuisine": "Peranakan",
     "dishes": [],
-    "open": 11,
-    "close": 21,
+    "open": 12,
+    "close": 22,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1205,10 +1225,15 @@
   {
     "place": "J2 Famous Crispy Curry Puff",
     "cuisine": "Local",
-    "dishes": [],
-    "open": 10,
-    "close": 19,
-    "closingDays": [],
+    "dishes": [
+      "Curry Puff"
+    ],
+    "open": 8,
+    "close": 15,
+    "closingDays": [
+      "Sat",
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1220,9 +1245,11 @@
       "Prawn Noodles",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 8,
+    "close": 15,
+    "closingDays": [
+      "Tue"
+    ],
     "locations": [
       "Central"
     ]
@@ -1234,9 +1261,12 @@
       "Assam Laksa",
       "Noodles"
     ],
-    "open": 10,
+    "open": 11,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Mon",
+      "Tue"
+    ],
     "locations": [
       "Central"
     ]
@@ -1247,8 +1277,8 @@
     "dishes": [
       "Chicken Rice"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 7,
+    "close": 19,
     "closingDays": [],
     "locations": [
       "North"
@@ -1261,9 +1291,11 @@
       "Wanton Mee",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 9,
+    "close": 19,
+    "closingDays": [
+      "Thu"
+    ],
     "locations": [
       "Central"
     ]
@@ -1274,8 +1306,8 @@
     "dishes": [
       "Shui Kueh"
     ],
-    "open": 6,
-    "close": 14,
+    "open": 7,
+    "close": 20,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1288,9 +1320,11 @@
       "Bak Kut Teh",
       "Soup"
     ],
-    "open": 10,
-    "close": 21,
-    "closingDays": [],
+    "open": 8,
+    "close": 19,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1299,8 +1333,8 @@
     "place": "Jungle Thai",
     "cuisine": "Thai",
     "dishes": [],
-    "open": 11,
-    "close": 22,
+    "open": 18,
+    "close": 23,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1311,10 +1345,11 @@
     "cuisine": "Local",
     "dishes": [
       "Kway Chap",
+      "Pig Organ Soup",
       "Soup"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 7,
+    "close": 19,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1327,8 +1362,10 @@
       "Nasi Lemak"
     ],
     "open": 11,
-    "close": 21,
-    "closingDays": [],
+    "close": 19,
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1337,11 +1374,14 @@
     "place": "Koh Brother Pig's Organ Soup",
     "cuisine": "Local",
     "dishes": [
+      "Pig Organ Soup",
       "Soup"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 9,
+    "close": 19,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1352,9 +1392,11 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 11,
-    "close": 22,
-    "closingDays": [],
+    "open": 12,
+    "close": 21,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1363,8 +1405,8 @@
     "place": "Kotuwa",
     "cuisine": "Sri Lankan",
     "dishes": [],
-    "open": 11,
-    "close": 22,
+    "open": 18,
+    "close": 23,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1374,11 +1416,14 @@
     "place": "Kwang Kee Teochew Fish Porridge",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
-    "open": 10,
+    "open": 11,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1389,9 +1434,11 @@
     "dishes": [
       "Braised Duck Rice"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 8,
+    "close": 21,
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1403,8 +1450,10 @@
       "Curry"
     ],
     "open": 11,
-    "close": 22,
-    "closingDays": [],
+    "close": 23,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1430,9 +1479,12 @@
       "Fried Kway Teow",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 12,
+    "close": 22,
+    "closingDays": [
+      "Wed",
+      "Sun"
+    ],
     "locations": [
       "East"
     ]
@@ -1443,9 +1495,12 @@
     "dishes": [
       "Claypot Rice"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 15,
+    "close": 21,
+    "closingDays": [
+      "Mon",
+      "Thu"
+    ],
     "locations": [
       "Central"
     ]
@@ -1457,14 +1512,11 @@
       "Fishball Noodles",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 7,
+    "close": 13,
     "closingDays": [],
     "locations": [
-      "North",
-      "East",
-      "Central",
-      "West"
+      "Central"
     ]
   },
   {
@@ -1473,9 +1525,11 @@
     "dishes": [
       "Chicken Rice"
     ],
-    "open": 10,
+    "open": 11,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1510,9 +1564,11 @@
     "dishes": [
       "Curry"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 11,
+    "close": 19,
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1525,8 +1581,10 @@
       "Noodles"
     ],
     "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "close": 16,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "East"
     ]
@@ -1538,7 +1596,7 @@
       "Claypot Rice"
     ],
     "open": 10,
-    "close": 20,
+    "close": 19,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1551,9 +1609,11 @@
       "Fried Kway Teow",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 12,
+    "close": 21,
+    "closingDays": [
+      "Tue"
+    ],
     "locations": [
       "Central"
     ]
@@ -1565,9 +1625,12 @@
       "Fried Kway Teow",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 6,
+    "close": 15,
+    "closingDays": [
+      "Sun",
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1578,9 +1641,11 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 6,
+    "close": 13,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1589,11 +1654,15 @@
     "place": "Selamat Datang Warong Pak Sapari",
     "cuisine": "Halal",
     "dishes": [
-      "Nasi Lemak"
+      "Mee Rebus",
+      "Mee Soto",
+      "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 8,
+    "close": 19,
+    "closingDays": [
+      "Fri"
+    ],
     "locations": [
       "Central"
     ]
@@ -1604,9 +1673,11 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 11,
-    "close": 22,
-    "closingDays": [],
+    "open": 12,
+    "close": 21,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1618,9 +1689,11 @@
       "Bak Kut Teh",
       "Soup"
     ],
-    "open": 11,
-    "close": 22,
-    "closingDays": [],
+    "open": 10,
+    "close": 0,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "East"
     ]
@@ -1629,10 +1702,11 @@
     "place": "Sin Huat Seafood Restaurant",
     "cuisine": "Local",
     "dishes": [
-      "Seafood"
+      "Seafood",
+      "Tze Char"
     ],
-    "open": 17,
-    "close": 0,
+    "open": 11,
+    "close": 23,
     "closingDays": [],
     "locations": [
       "East"
@@ -1645,9 +1719,11 @@
       "Hokkien Mee",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 15,
+    "close": 23,
+    "closingDays": [
+      "Thu"
+    ],
     "locations": [
       "Central"
     ]
@@ -1658,9 +1734,12 @@
     "dishes": [
       "Tze Char"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 9,
+    "close": 19,
+    "closingDays": [
+      "Mon",
+      "Tue"
+    ],
     "locations": [
       "West"
     ]
@@ -1672,9 +1751,11 @@
       "Bak Kut Teh",
       "Soup"
     ],
-    "open": 10,
-    "close": 22,
-    "closingDays": [],
+    "open": 9,
+    "close": 21,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1683,11 +1764,14 @@
     "place": "Song Fish Soup",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
     "open": 10,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "West"
     ]
@@ -1696,24 +1780,29 @@
     "place": "Song Kee Teochew Fish Porridge",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
     "open": 10,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
   },
   {
-    "place": "Spinach Soup",
+    "place": "Yuan Yang Spinach Soup",
     "cuisine": "Local",
     "dishes": [
       "Soup"
     ],
-    "open": 10,
+    "open": 11,
     "close": 20,
-    "closingDays": [],
+    "closingDays": [
+      "Sat"
+    ],
     "locations": [
       "Central"
     ]
@@ -1722,10 +1811,11 @@
     "place": "Tai Seng Fish Soup",
     "cuisine": "Local",
     "dishes": [
-      "Fish Soup"
+      "Fish Soup",
+      "Soup"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 9,
+    "close": 18,
     "closingDays": [],
     "locations": [
       "West"
@@ -1738,8 +1828,8 @@
       "BCM",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
+    "open": 7,
+    "close": 19,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1749,7 +1839,7 @@
     "place": "The Blue Ginger",
     "cuisine": "Peranakan",
     "dishes": [],
-    "open": 11,
+    "open": 12,
     "close": 22,
     "closingDays": [],
     "locations": [
@@ -1763,10 +1853,11 @@
       "Nasi Lemak"
     ],
     "open": 11,
-    "close": 21,
+    "close": 22,
     "closingDays": [],
     "locations": [
-      "Central"
+      "Central",
+      "East"
     ]
   },
   {
@@ -1776,23 +1867,10 @@
       "Chicken Rice"
     ],
     "open": 10,
-    "close": 20,
+    "close": 15,
     "closingDays": [],
     "locations": [
       "Central"
-    ]
-  },
-  {
-    "place": "To-Ricos Kway Chap",
-    "cuisine": "Local",
-    "dishes": [
-      "Kway Chap"
-    ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
-    "locations": [
-      "East"
     ]
   },
   {
@@ -1800,8 +1878,10 @@
     "cuisine": "Peranakan",
     "dishes": [],
     "open": 11,
-    "close": 22,
-    "closingDays": [],
+    "close": 21,
+    "closingDays": [
+      "Sun"
+    ],
     "locations": [
       "Central"
     ]
@@ -1812,7 +1892,9 @@
     "dishes": [],
     "open": 11,
     "close": 22,
-    "closingDays": [],
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1822,7 +1904,7 @@
     "cuisine": "Vegetarian",
     "dishes": [],
     "open": 11,
-    "close": 21,
+    "close": 22,
     "closingDays": [],
     "locations": [
       "Central"
@@ -1835,7 +1917,7 @@
       "Hor Fun",
       "Noodles"
     ],
-    "open": 4,
+    "open": 16,
     "close": 20,
     "closingDays": [
       "Sat",
@@ -1863,9 +1945,11 @@
       "Wanton Mee",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 5,
+    "close": 12,
+    "closingDays": [
+      "Thu"
+    ],
     "locations": [
       "Central"
     ]
@@ -1890,9 +1974,11 @@
       "Prawn Noodles",
       "Noodles"
     ],
-    "open": 10,
-    "close": 20,
-    "closingDays": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
@@ -1902,11 +1988,14 @@
     "cuisine": "Local",
     "dishes": [
       "Prawn Noodles",
+      "Hokkien Mee",
       "Noodles"
     ],
     "open": 11,
     "close": 21,
-    "closingDays": [],
+    "closingDays": [
+      "Mon"
+    ],
     "locations": [
       "Central"
     ]
