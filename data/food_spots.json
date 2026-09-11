@@ -103,7 +103,7 @@
     ]
   },
   {
-    "place": "ENEN Ke Kou Main Orchard Towers",
+    "place": "ENEN Ke Kou Main",
     "cuisine": "Local",
     "dishes": [
       "KKM",
@@ -113,7 +113,8 @@
     "close": 24,
     "closingDays": [],
     "locations": [
-      "Central"
+      "Central",
+      "North"
     ]
   },
   {
@@ -692,7 +693,8 @@
       "Mon"
     ],
     "locations": [
-      "East"
+      "East",
+      "Central"
     ]
   },
   {
@@ -2130,6 +2132,121 @@
     ],
     "locations": [
       "East"
+    ]
+  },
+  {
+    "place": "Brothers Ramen",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 19,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Phuket Town Mookata",
+    "cuisine": "Thai",
+    "dishes": [
+      "Tom Yam Mama"
+    ],
+    "open": 12,
+    "close": 1,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Kiap Kiap Chicken Club & Bar",
+    "cuisine": "Western",
+    "dishes": [
+      "Fried Chicken"
+    ],
+    "open": 18,
+    "close": 2,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Le Cheng Kampong Hainanese Chicken Rice",
+    "cuisine": "Local",
+    "dishes": [
+      "Chicken Rice"
+    ],
+    "open": 10,
+    "close": 0,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "The Soup Expert",
+    "cuisine": "China",
+    "dishes": [],
+    "open": 12,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Nanjing Impressions",
+    "cuisine": "China",
+    "dishes": [],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Longjing Restaurant",
+    "cuisine": "China",
+    "dishes": [],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "THREE BOWLS \u6765\u4e09\u7897",
+    "cuisine": "Malaysian",
+    "dishes": [
+      "Kolo Mee",
+      "Noodles"
+    ],
+    "open": 13,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "East"
+    ]
+  },
+  {
+    "place": "Huiwei Duck Claypot",
+    "cuisine": "China",
+    "dishes": [
+      "Duck Claypot"
+    ],
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
     ]
   }
 ]
