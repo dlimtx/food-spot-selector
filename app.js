@@ -31,6 +31,15 @@ const resultList = document.getElementById("resultList");
 const emptyEl = document.getElementById("empty");
 const dayNote = document.getElementById("dayNote");
 
+/** @type {ReturnType<typeof createMultiSelect>[]} */
+const multiSelects = [];
+/** @type {ReturnType<typeof createMultiSelect> | null} */
+let locationSelectApi = null;
+/** @type {ReturnType<typeof createMultiSelect> | null} */
+let cuisineSelectApi = null;
+/** @type {ReturnType<typeof createMultiSelect> | null} */
+let dishSelectApi = null;
+
 /** @type {Array<{place:string,cuisine:string,dishes:string[],open:number,close:number,closingDays:string[],locations:string[]}>} */
 let spots = [];
 
@@ -62,12 +71,17 @@ function isOpenAt(spot, hour) {
   return hour >= open && hour < close;
 }
 
-function matchesFilters(spot, hour, location, cuisine, dish, dayCode) {
+function matchesAny(selected, values) {
+  if (selected.length === 0) return true;
+  return selected.some((value) => values.includes(value));
+}
+
+function matchesFilters(spot, hour, locations, cuisines, dishes, dayCode) {
   if (spot.closingDays.includes(dayCode)) return false;
   if (!isOpenAt(spot, hour)) return false;
-  if (location !== "Any" && !spot.locations.includes(location)) return false;
-  if (cuisine !== "Any" && spot.cuisine !== cuisine) return false;
-  if (dish !== "Any" && !spot.dishes.includes(dish)) return false;
+  if (!matchesAny(locations, spot.locations)) return false;
+  if (!matchesAny(cuisines, [spot.cuisine])) return false;
+  if (!matchesAny(dishes, spot.dishes)) return false;
   return true;
 }
 
@@ -80,6 +94,171 @@ function fillSelect(select, options, selectedValue) {
     if (option.value === selectedValue) el.selected = true;
     select.appendChild(el);
   }
+}
+
+function optionId(prefix, value, index) {
+  const slug = value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `${prefix}-${slug || "option"}-${index}`;
+}
+
+function summarizeSelection(values, emptyLabel) {
+  if (values.length === 0) return emptyLabel;
+  if (values.length <= 2) return values.join(", ");
+  return `${values.length} selected`;
+}
+
+function closeAllMultiSelects(except) {
+  for (const ms of multiSelects) {
+    if (ms !== except) ms.close();
+  }
+}
+
+function createMultiSelect(container, options) {
+  const emptyLabel = container.dataset.emptyLabel || "Any";
+  const searchable = container.dataset.searchable === "true";
+  const searchPlaceholder = container.dataset.searchPlaceholder || "Search";
+  const labelledBy = container.previousElementSibling?.id;
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.id = `${container.id}Toggle`;
+  toggle.className = "multiselect__toggle";
+  toggle.setAttribute("aria-haspopup", "true");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-controls", `${container.id}Panel`);
+
+  const valueEl = document.createElement("span");
+  valueEl.className = "multiselect__value";
+  valueEl.textContent = emptyLabel;
+  toggle.append(valueEl);
+
+  const panel = document.createElement("div");
+  panel.id = `${container.id}Panel`;
+  panel.className = "multiselect__panel";
+  panel.hidden = true;
+
+  let searchInput = null;
+  if (searchable) {
+    searchInput = document.createElement("input");
+    searchInput.type = "search";
+    searchInput.className = "multiselect__search";
+    searchInput.placeholder = searchPlaceholder;
+    searchInput.setAttribute("aria-label", searchPlaceholder);
+    searchInput.autocomplete = "off";
+    panel.append(searchInput);
+  }
+
+  const toolbar = document.createElement("div");
+  toolbar.className = "multiselect__toolbar";
+  const clearBtn = document.createElement("button");
+  clearBtn.type = "button";
+  clearBtn.className = "multiselect__clear";
+  clearBtn.textContent = "Clear";
+  clearBtn.disabled = true;
+  toolbar.append(clearBtn);
+  panel.append(toolbar);
+
+  const list = document.createElement("ul");
+  list.className = "multiselect__options";
+  list.setAttribute("role", "group");
+  if (labelledBy) list.setAttribute("aria-labelledby", labelledBy);
+
+  const emptySearch = document.createElement("p");
+  emptySearch.className = "multiselect__empty";
+  emptySearch.textContent = "No matches";
+  emptySearch.hidden = true;
+
+  options.forEach((option, index) => {
+    const item = document.createElement("li");
+    item.className = "multiselect__option";
+
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = option;
+    input.id = optionId(container.id, option, index);
+    const text = document.createElement("span");
+    text.textContent = option;
+    label.append(input, text);
+    item.append(label);
+    list.append(item);
+  });
+
+  const listWrap = document.createElement("div");
+  listWrap.className = "multiselect__list-wrap";
+  listWrap.append(list, emptySearch);
+  panel.append(listWrap);
+  container.replaceChildren(toggle, panel);
+
+  function getValues() {
+    return [...list.querySelectorAll('input[type="checkbox"]:checked')].map(
+      (input) => input.value
+    );
+  }
+
+  function syncSummary() {
+    const values = getValues();
+    valueEl.textContent = summarizeSelection(values, emptyLabel);
+    clearBtn.disabled = values.length === 0;
+  }
+
+  function setOpen(open) {
+    if (open) closeAllMultiSelects(api);
+    panel.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+    container.classList.toggle("is-open", open);
+    if (open && searchInput) searchInput.focus();
+  }
+
+  function filterOptions() {
+    if (!searchInput) return;
+    const query = searchInput.value.trim().toLowerCase();
+    let visible = 0;
+    for (const item of list.children) {
+      const match =
+        query === "" || item.textContent.toLowerCase().includes(query);
+      item.hidden = !match;
+      if (match) visible += 1;
+    }
+    emptySearch.hidden = visible > 0;
+  }
+
+  toggle.addEventListener("click", (event) => {
+    event.stopPropagation();
+    setOpen(panel.hidden);
+  });
+
+  panel.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
+
+  list.addEventListener("change", syncSummary);
+
+  clearBtn.addEventListener("click", () => {
+    for (const input of list.querySelectorAll('input[type="checkbox"]')) {
+      input.checked = false;
+    }
+    syncSummary();
+    if (searchInput) {
+      searchInput.value = "";
+      filterOptions();
+    }
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener("input", filterOptions);
+  }
+
+  const api = {
+    getValues,
+    close() {
+      setOpen(false);
+    },
+  };
+
+  multiSelects.push(api);
+  syncSummary();
+  return api;
 }
 
 function populateControls(data) {
@@ -97,32 +276,18 @@ function populateControls(data) {
     label: formatHour(hour),
   }));
 
-  const locations = [
-    { value: "Any", label: "Any area" },
-    ...[...new Set(data.flatMap((s) => s.locations))]
-      .sort()
-      .map((loc) => ({ value: loc, label: loc })),
-  ];
-
-  const cuisines = [
-    { value: "Any", label: "Any cuisine" },
-    ...[...new Set(data.map((s) => s.cuisine))]
-      .sort()
-      .map((cuisine) => ({ value: cuisine, label: cuisine })),
-  ];
-
-  const dishes = [
-    { value: "Any", label: "Any dish" },
-    ...[...new Set(data.flatMap((s) => s.dishes))]
-      .sort((a, b) => a.localeCompare(b))
-      .map((dish) => ({ value: dish, label: dish })),
-  ];
+  const locations = [...new Set(data.flatMap((s) => s.locations))].sort();
+  const cuisines = [...new Set(data.map((s) => s.cuisine))].sort();
+  const dishes = [...new Set(data.flatMap((s) => s.dishes))].sort((a, b) =>
+    a.localeCompare(b)
+  );
 
   fillSelect(daySelect, days, dayCode);
   fillSelect(timeSelect, hours, String(currentHour));
-  fillSelect(locationSelect, locations, "Any");
-  fillSelect(cuisineSelect, cuisines, "Any");
-  fillSelect(dishSelect, dishes, "Any");
+  multiSelects.length = 0;
+  locationSelectApi = createMultiSelect(locationSelect, locations);
+  cuisineSelectApi = createMultiSelect(cuisineSelect, cuisines);
+  dishSelectApi = createMultiSelect(dishSelect, dishes);
 }
 
 function showEmpty() {
@@ -185,13 +350,13 @@ function showResults(matches) {
 
 function suggest() {
   const hour = Number(timeSelect.value);
-  const location = locationSelect.value;
-  const cuisine = cuisineSelect.value;
-  const dish = dishSelect.value;
+  const locations = locationSelectApi.getValues();
+  const cuisines = cuisineSelectApi.getValues();
+  const dishes = dishSelectApi.getValues();
   const dayCode = daySelect.value;
 
   const matches = spots.filter((spot) =>
-    matchesFilters(spot, hour, location, cuisine, dish, dayCode)
+    matchesFilters(spot, hour, locations, cuisines, dishes, dayCode)
   );
 
   if (matches.length === 0) {
@@ -230,6 +395,11 @@ async function startApp() {
   populateControls(spots);
 
   suggestBtn.addEventListener("click", suggest);
+
+  document.addEventListener("click", () => closeAllMultiSelects());
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeAllMultiSelects();
+  });
 }
 
 async function init() {

@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#f7d6e0" />
     <meta
       name="description"
-      content="Find matching food spots by day, time, location, cuisine, and dish."
+      content="Find matching food spots by day, time, and any mix of locations, cuisines, and dishes."
     />
     <title>Eat Where</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,8 +28,8 @@
         <p class="brand__mark">Eat Where</p>
         <h1 class="brand__headline">Hungry? Let’s settle it.</h1>
         <p class="brand__sub">
-          Pick a day, time, area, cuisine, and dish — we’ll list every matching
-          spot.
+          Pick a day, time, and any mix of areas, cuisines, and dishes — we’ll
+          list every matching spot.
         </p>
       </header>
 
@@ -60,18 +60,34 @@
         </div>
 
         <div class="field">
-          <label for="location">Location</label>
-          <select id="location" name="location"></select>
+          <label id="locationLabel" for="locationToggle">Location</label>
+          <div
+            class="multiselect"
+            id="location"
+            data-empty-label="Any area"
+          ></div>
         </div>
 
         <div class="field">
-          <label for="cuisine">Cuisine</label>
-          <select id="cuisine" name="cuisine"></select>
+          <label id="cuisineLabel" for="cuisineToggle">Cuisine</label>
+          <div
+            class="multiselect"
+            id="cuisine"
+            data-empty-label="Any cuisine"
+            data-searchable="true"
+            data-search-placeholder="Search cuisines"
+          ></div>
         </div>
 
         <div class="field">
-          <label for="dish">Dish</label>
-          <select id="dish" name="dish"></select>
+          <label id="dishLabel" for="dishToggle">Dish</label>
+          <div
+            class="multiselect"
+            id="dish"
+            data-empty-label="Any dish"
+            data-searchable="true"
+            data-search-placeholder="Search dishes"
+          ></div>
         </div>
 
         <p class="day-note" id="dayNote" hidden></p>
@@ -87,8 +103,8 @@
       </section>
 
       <p class="empty" id="empty" hidden>
-        Nothing matches those filters. Loosen the day, time, area, cuisine, or
-        dish and try again.
+        Nothing matches those filters. Loosen the day, time, areas, cuisines, or
+        dishes and try again.
       </p>
     </main>
 
