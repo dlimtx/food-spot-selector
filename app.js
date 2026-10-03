@@ -335,6 +335,15 @@ function renderSpotCard(spot) {
   return item;
 }
 
+function shuffle(items) {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 function showResults(matches) {
   emptyEl.hidden = true;
   resultEl.hidden = false;
@@ -355,8 +364,10 @@ function suggest() {
   const dishes = dishSelectApi.getValues();
   const dayCode = daySelect.value;
 
-  const matches = spots.filter((spot) =>
-    matchesFilters(spot, hour, locations, cuisines, dishes, dayCode)
+  const matches = shuffle(
+    spots.filter((spot) =>
+      matchesFilters(spot, hour, locations, cuisines, dishes, dayCode)
+    )
   );
 
   if (matches.length === 0) {
