@@ -174,7 +174,9 @@
   {
     "place": "Shinya Izakaya",
     "cuisine": "Japanese",
-    "dishes": [],
+    "dishes": [
+      "Izakaya"
+    ],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -185,7 +187,9 @@
   {
     "place": "Tsukiji Sushi Ten",
     "cuisine": "Japanese",
-    "dishes": [],
+    "dishes": [
+      "Izakaya"
+    ],
     "open": 12,
     "close": 3,
     "closingDays": [],
@@ -309,7 +313,9 @@
   {
     "place": "Public Izakaya",
     "cuisine": "Japanese",
-    "dishes": [],
+    "dishes": [
+      "Izakaya"
+    ],
     "open": 12,
     "close": 0,
     "closingDays": [],
@@ -537,7 +543,9 @@
   {
     "place": "Tora Tora",
     "cuisine": "Japanese",
-    "dishes": [],
+    "dishes": [
+      "Izakaya"
+    ],
     "open": 12,
     "close": 22,
     "closingDays": [],
@@ -2244,6 +2252,166 @@
     ],
     "open": 12,
     "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Zenryoku Izakaya",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Izakaya"
+    ],
+    "open": 12,
+    "close": 0,
+    "closingDays": [
+      "Sun"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ramen Story",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ramen Soshiji",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 12,
+    "close": 4,
+    "closingDays": [
+      "Mon",
+      "Tue"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Enishi Ramen",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 21,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Ume San 100",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 12,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Uma Haus",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 10,
+    "close": 20,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Bari Uma",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Ramen",
+      "Noodles"
+    ],
+    "open": 11,
+    "close": 22,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Gunkee Claypot",
+    "cuisine": "China",
+    "dishes": [],
+    "open": 11,
+    "close": 23,
+    "closingDays": [],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Fatty Ox Famous Kitchen",
+    "cuisine": "Hong Kong",
+    "dishes": [
+      "Tze Char"
+    ],
+    "open": 8,
+    "close": 14,
+    "closingDays": [
+      "Mon",
+      "Tue"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "No. 25 Minced Meat Noodle",
+    "cuisine": "Local",
+    "dishes": [
+      "BCM",
+      "Noodles"
+    ],
+    "open": 8,
+    "close": 14,
+    "closingDays": [
+      "Sat",
+      "Sun",
+      "Wed"
+    ],
+    "locations": [
+      "Central"
+    ]
+  },
+  {
+    "place": "Yamamoto's Hamburg",
+    "cuisine": "Japanese",
+    "dishes": [
+      "Hamburg"
+    ],
+    "open": 11,
+    "close": 21,
     "closingDays": [],
     "locations": [
       "Central"
